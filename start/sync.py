@@ -3,6 +3,8 @@ from pymongo import MongoClient
 import logger
 from concurrent.futures import ThreadPoolExecutor
 import threading
+
+from start.config import MONGO_COLLECTION, MONGO_URI, MONGO_DB
 from start.runprocess import runprocess_shelf,runprocess_slot
 from start import runprocess
 

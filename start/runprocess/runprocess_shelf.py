@@ -1,10 +1,10 @@
 import logging
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
-from start.config import MONGO_URI, MONGO_DB, MONGO_COLLECTION, SQL_SERVER_URI
+from start.config import SQL_SERVER_URI
 
 
-from start.models import Equipment,Base
+from start.model.models import Equipment,Base
 
 logger = logging.getLogger(__name__)
 
